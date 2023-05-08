@@ -1,0 +1,23 @@
+.signup-form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ddd;
+	padding: 20px;
+	max-width: 400px;
+	border-radius: 5px;
+}
+
+.signup-form-container form {
+	width: 100%;
+}
+
+.signup-form-container .MuiTextField-root {
+	margin-bottom: 16px;
+}
+
+.signup-form-container .MuiButton-root {
+	width: 100%;
+	margin-bottom: 16px;
+}
